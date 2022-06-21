@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/home.css">
+    <script src="../JS/index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Hobbies and Favorites</h1>
+    </header>
+     <nav>
+        <a href="../Home.html">Home</a>
+        <a href="Residences.html">Residences</a>
+        <a href="Work.html">Work</a>
+        <a href="Education.html">Education</a>
+        <a href="Hobbies.html">Hobbies</a>
+        <a href="Travel.html">Travel</a>
+        <a href="Contact.html">Contact</a>
+    </nav>
+    <br>  
+    <div class="center">
+        <section class="group">
+            <p>Here is a map of states that I have visted. Since my undergrad, I have gotten more into travelling and have a goal of visiting every state.</p>
+            <img src="../Images/map.png" height="350" width="550" alt="Travel map">
+        </section> 
+        <aside>
+                <p>Vote on which state I should visit next!</p>
+                <table class="vote">
+                    <tr>
+                        <th><button onclick="onOregonClick()">Oregon</button></th>
+                        <th><button onclick="onArizonaClick()">Arizona</button></th>
+                        <th><button onclick="onUtahClick()">Utah</button></th>
+                        <th><button onclick="onMontanaClick()">Montana</button></th>
+                    </tr>
+                    <tr>
+                        <td><a id="oregonClicks">0</a></td>
+                        <td><a id="arizonaClicks">0</a></td>
+                        <td><a id="utahClicks">0</a></td>
+                        <td><a id="montanaClicks">0</a></td>
+                    </tr>
+                </table>     
+        </aside>
+    </div>
+    <footer>
+        <p>Last Updated by Dane Pierantoni.  6/21/2022</p>
+    </footer>
+</body>
+</html>
